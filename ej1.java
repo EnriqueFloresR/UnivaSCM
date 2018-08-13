@@ -9,12 +9,14 @@ public class ej1 {
 		String nombre, semestre,expediente,m1,m2,m3;
 		Double materia1, materia2, materia3;
 		//AGREGAMOS LINEAS COMENTADAS PARA EL EJEMPLO
+		//primer programador puede hacer otros comentarios para comparar con el segundor programador
 		//Captura de Informacion
 		nombre = JOptionPane.showInputDialog("Escribe tu Nombre:");
 		expediente= JOptionPane.showInputDialog("Escribe tu Numero de Expediente:");
 		semestre = JOptionPane.showInputDialog("Semestre en Curso(numero):",1);
 		//		String[] options = {"Semestre 1", "Semestre 2", "Semestre 3", "Semestre 4", "Semestre 5", "Semestre 6"};
 		//TAMBIEN ESTA ES UNA LINEA DE EJEMPLO
+		//esto antes de enviar a master	
 		m1 = JOptionPane.showInputDialog("Calificacion Español:",5.0);
 		m2 = JOptionPane.showInputDialog("Calificacion Matematicas:",5.0);
 		m3 = JOptionPane.showInputDialog("Calificacion Ingles:",5.0);
